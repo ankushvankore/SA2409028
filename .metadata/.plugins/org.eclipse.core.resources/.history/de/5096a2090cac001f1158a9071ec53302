@@ -1,0 +1,26 @@
+package com.Assignments;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class A02EchoechoCheckBox {
+
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+
+		driver.get("https://echoecho.com/htmlforms09.htm");
+		
+		List<WebElement>products = driver.findElements(By.cssSelector("input[name^=\"option\"]"));
+		
+		for(WebElement p : products)
+		{
+			
+		}
+	}
+
+}

@@ -26,10 +26,12 @@ public class D18HandlingDropdownList {
 		
 		for(int i = 0; i < countryList.size(); i++)
 		{
-			System.out.println(countryList.get(i).getText());
+			System.out.println(i + ". " + countryList.get(i).getText());
 		}
 		
-		countries.selectByVisibleText("United States");
+		//countries.selectByVisibleText("United States");
+		//countries.selectByValue("222");
+		countries.selectByIndex(219);
 		System.out.println("Selected Country: " + countries.getFirstSelectedOption().getText());
 		
 		//driver.close();
