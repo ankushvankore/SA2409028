@@ -33,7 +33,7 @@ public class D20Synchronization_Thread_Sleep {
 		Thread.sleep(5000);
 		System.out.println(driver.findElement(By.xpath("//*[@id=\"13872137\"]/div/div[1]/div[1]/div[1]/div[1]")).getText());
 		
-		driver.close();
+		//driver.close();
 	}
 
 }
