@@ -6,12 +6,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class A06RedbusDate {
 
 	public static void main(String[] args) throws InterruptedException {
-		String expMonth = "Mar", expDay = "10";
-		WebDriver driver = new ChromeDriver();
+		String expMonth = "Jan", expDay = "10";
+		ChromeOptions op = new ChromeOptions();
+		op.addArguments("--disable-notifications");
+		WebDriver driver = new ChromeDriver(op);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
@@ -36,13 +39,15 @@ public class A06RedbusDate {
 		
 		driver.findElement(By.xpath("//span[contains(text(), "+expDay+")]")).click();
 		
-		Thread.sleep(5000);
+		
 		
 		//Search Bus
 		driver.findElement(By.id("search_button")).click();
 		
 		//Display result
 		System.out.println(driver.findElement(By.xpath("//*[@id=\"13872137\"]/div/div[1]/div[1]/div[1]/div[1]")).getText());
+		
+		Thread.sleep(5000);
 		
 		driver.close();
 	}
