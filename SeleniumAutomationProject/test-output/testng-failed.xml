@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.TestNGDemos.D03Before_After_Test">
+        <methods>
+          <include name="oHRMTest"/>
+          <include name="rediffTest"/>
+          <include name="closeBrowser"/>
+          <include name="googleTest"/>
+          <include name="bingTest"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- com.TestNGDemos.D03Before_After_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

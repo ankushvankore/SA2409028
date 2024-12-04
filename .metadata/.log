@@ -595,3 +595,985 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-03 22:28:48.870 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2024-12-03 22:29:01.864
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-03 22:29:01.864
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ab85862,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@504c415c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-03 22:29:01.864
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c9e74f3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@813ab53,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-03 22:29:08.374
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-04 19:54:37.900 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2024-12-04 19:56:36.852
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-04 19:56:36.852
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b6ee447,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9cb927e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-04 19:56:36.852
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8585cdd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1325f967,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-04 19:56:44.121
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 20:29:33.278
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60060 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1439302360\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 60060 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1439302360\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 20:31:44.438
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60100 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--141666976\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 60100 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--141666976\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 20:39:39.035
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60271 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1941253011\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 60271 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1941253011\testng-customsuite.xml
+
+!ENTRY org.eclipse.ui 4 0 2024-12-04 20:42:45.901
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-04 20:42:46.149
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 20:45:21.137
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60743 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-872711726\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 60743 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-872711726\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 20:47:10.463
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61156 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-931748518\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 61156 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-931748518\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 20:49:00.839
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61619 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1930675506\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 61619 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1930675506\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 20:51:47.745
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61822 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1899832653\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 61822 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1899832653\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 20:52:11.299
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61857 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-348685892\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 61857 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-348685892\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 20:53:55.304
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62048 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--666545506\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62048 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--666545506\testng-customsuite.xml
+
+!ENTRY org.eclipse.ui 4 0 2024-12-04 21:03:41.524
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-04 21:03:41.751
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 21:09:28.502
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62481 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1546503991\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62481 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1546503991\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 21:12:12.884
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62555 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-840122440\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62555 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-840122440\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 21:13:13.049
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62638 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-545096655\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62638 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-545096655\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 21:15:28.313
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62760 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1999264790\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62760 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1999264790\testng-customsuite.xml
+
+!ENTRY org.eclipse.ui 4 0 2024-12-04 21:23:36.589
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-04 21:23:36.808
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 21:26:04.175
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63028 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1935304004\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 63028 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1935304004\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 21:26:58.600
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63129 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1255159894\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 63129 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1255159894\testng-customsuite.xml
+
+!ENTRY org.eclipse.ui 4 0 2024-12-04 21:40:25.118
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-04 21:40:25.349
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-04 21:45:51.913
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-04 21:45:52.129
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 21:50:17.592
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63729 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--102481193\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 63729 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--102481193\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 21:51:38.369
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63816 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--383593077\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 63816 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--383593077\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 21:58:58.687
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64137 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1012259488\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 64137 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1012259488\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 21:59:33.035
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64172 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--873902214\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 64172 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--873902214\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 22:00:18.584
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64212 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-824641587\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 64212 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-824641587\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 22:01:23.910
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64256 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-163935780\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 64256 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-163935780\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-12-04 22:02:25.125
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.26.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64297 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1834591214\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.26.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 64297 -protocol json -d D:\StarAgile\Demos\SA2409028\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1834591214\testng-customsuite.xml
