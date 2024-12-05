@@ -2,29 +2,57 @@ package com.TestNGDemos;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 public class D05GoogleAssignment {
-	@Test
-	public void f() {
+	WebDriver driver;
+	
+	@Test (priority = 1, groups = "TopLinks")
+	public void gmailLink() {
+		driver.findElement(By.partialLinkText("Gmail")).click();
+	}
+	@Test (priority = 2, groups = "TopLinks")
+	public void imagesLink() {
+		driver.findElement(By.partialLinkText("Images")).click();
+	}
+	@Test (priority = 3, groups = "BottomLinks")
+	public void advtLink() {
+		driver.findElement(By.partialLinkText("Adve")).click();
+	}
+	@Test (priority = 4, groups = "BottomLinks")
+	public void businessLink() {
+		driver.findElement(By.partialLinkText("Busine")).click();
 	}
 
-	@BeforeMethod
-	public void beforeMethod() {
+	@BeforeMethod(alwaysRun = true)
+	public void openGoogle() {
+		driver.get("https://google.com");
+		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@AfterMethod
-	public void afterMethod() {
+	@AfterMethod(alwaysRun = true)
+	public void printTitle() {
+		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@BeforeTest
+	@BeforeTest(alwaysRun = true)
 	public void beforeTest() {
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
-	@AfterTest
+	@AfterTest(alwaysRun = true)
 	public void afterTest() {
+		driver.close();
 	}
 
 }

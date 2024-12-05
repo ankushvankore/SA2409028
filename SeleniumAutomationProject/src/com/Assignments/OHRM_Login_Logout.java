@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 
 public class OHRM_Login_Logout {
 	WebDriver driver;
@@ -39,7 +40,7 @@ public class OHRM_Login_Logout {
 		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("devendra123");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
-
+	
 	@AfterMethod
 	public void logout() {
 		if (driver.getCurrentUrl().contains("dashboard")) {
