@@ -1,0 +1,2 @@
+URL = https://register.rediff.com/register/register.php?FormName=user_details
+fullNameCss = input[name^="name"]

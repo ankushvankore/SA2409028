@@ -1,0 +1,5 @@
+URL = https://register.rediff.com/register/register.php?FormName=user_details
+fullNameCss = input[maxlength="61"]
+rediffIdXPath = /html/body/center/form/div/table[2]/tbody/tr[7]/td[3]/input[1]
+passwordId = newpasswd
+retypePassId = newpasswd1
