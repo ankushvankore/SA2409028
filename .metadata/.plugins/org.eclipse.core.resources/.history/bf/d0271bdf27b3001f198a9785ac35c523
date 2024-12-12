@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name = "My Suite" parallel = "methods" thread-count = "2">
-	<test name = "Google Test">
-		<classes>
-			<class name = "com.TestNGDemos.">
-			</class>
-		</classes>
-	</test>
-</suite>

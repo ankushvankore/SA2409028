@@ -13,8 +13,11 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.BeforeTest;
@@ -41,7 +44,10 @@ public class D15LoginToOHRM_DDF {
 	}
 	
 	@AfterMethod
-	public void logout() {
+	public void logout() throws IOException, InterruptedException {
+		Thread.sleep(2000);
+		File ss = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileHandler.copy(ss, new File("ScreenShots\\OHRM_SS"+index+".jpeg"));
 		row = sheet.getRow(index);
 		cell = row.getCell(2);
 		if (driver.getCurrentUrl().contains("dashboard")) {
@@ -97,6 +103,8 @@ public class D15LoginToOHRM_DDF {
 		wb.write(fos);
 		wb.close();
 		fis.close();
+		
+		driver.close();
 	}
 
 }
