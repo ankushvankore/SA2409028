@@ -2,6 +2,7 @@ package com.StepDef;
 
 import java.time.Duration;
 
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -12,6 +13,7 @@ import io.cucumber.java.en.*;
 
 public class S02GoogleSearch {
 	WebDriver driver;
+	XSSFWorkbook wb;
 	@Given("Open Google Application")
 	public void open_google_application() {
 		driver = new ChromeDriver();

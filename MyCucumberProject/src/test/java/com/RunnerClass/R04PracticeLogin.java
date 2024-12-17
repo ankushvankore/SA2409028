@@ -7,7 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/MyCucumberProject/MyCucumberProject/F04PracticeLogin.feature",
-					glue = "com.StepDef")
+					glue = "com.StepDef",
+					publish = true)
 public class R04PracticeLogin {
 
 }
