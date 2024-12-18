@@ -8,7 +8,11 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.time.Duration;
 
+import org.apache.poi.hssf.util.HSSFColor.HSSFColorPredefined;
+import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFCellStyle;
+import org.apache.poi.xssf.usermodel.XSSFFont;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -32,6 +36,8 @@ public class D15LoginToOHRM_DDF {
 	XSSFSheet sheet;
 	XSSFRow row;
 	XSSFCell cell;
+	XSSFCellStyle style;
+	XSSFFont font;
 	int i, j, rows, index = 1;
 	
 	WebDriver driver;
@@ -45,20 +51,37 @@ public class D15LoginToOHRM_DDF {
 	
 	@AfterMethod
 	public void logout() throws IOException, InterruptedException {
+		style = wb.createCellStyle();
+		font = wb.createFont();
 		Thread.sleep(2000);
 		File ss = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileHandler.copy(ss, new File("ScreenShots\\OHRM_SS"+index+".jpeg"));
 		row = sheet.getRow(index);
 		cell = row.getCell(2);
 		if (driver.getCurrentUrl().contains("dashboard")) {
+			FileHandler.copy(ss, new File("ScreenShots\\OHRM_SS_Pass"+index+".jpeg"));
 			driver.findElement(By.xpath("//img[@class='oxd-userdropdown-img']")).click();
 			driver.findElement(By.linkText("Logout")).click();
 			System.out.println("Test case pass");
+			
+			font.setColor(HSSFColorPredefined.GREEN.getIndex());
+			style.setFillBackgroundColor(IndexedColors.LIGHT_BLUE.getIndex());
+			font.setBold(true);
+			style.setFont(font);
+			cell.setCellStyle(style);
+			
 			cell.setCellValue("Pass");
 		}
 		else
 		{
+			FileHandler.copy(ss, new File("ScreenShots\\OHRM_SS_Fail"+index+".jpeg"));
 			System.out.println("Invalid data");
+			
+			font.setColor(HSSFColorPredefined.RED.getIndex());
+			font.setItalic(true);
+			style.setFont(font);
+			cell.setCellStyle(style);
+			
 			cell.setCellValue("Fail");
 		}
 		index++;
@@ -89,6 +112,7 @@ public class D15LoginToOHRM_DDF {
 		wb = new XSSFWorkbook(fis);
 		sheet = wb.getSheetAt(0);
 		fos = new FileOutputStream(file);
+		
 		//Always configure fos after configuration of sheet
 		//especially when you are performing read and write both operations
 		
